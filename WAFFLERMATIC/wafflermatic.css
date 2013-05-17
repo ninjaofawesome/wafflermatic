@@ -1,0 +1,24 @@
+body { background: #e0e4cc; font-family: Helvetica, Arial, sans-serif; font-size: 14px; line-height: 1; color: #666; position: relative; -webkit-font-smoothing: antialiased; }
+
+h1, h2, h3, h4, h5, h6 { font-family: "kgturningtables", Helvetica, Arial, sans-serif; font-weight: bold; color: #e0e4cc; text-rendering: optimizeLegibility; line-height: 1.1; margin-bottom: 14px; margin-top: 14px; }
+
+
+.button { width: auto; background: #e0e4cc;  -webkit-box-shadow: 0 0 rgba(255, 255, 255, 0.5) inset; -moz-box-shadow: 0 0 0 rgba(255, 255, 255, 0.5) inset; box-shadow: 0 0 0 rgba(255, 255, 255, 0.5) inset; color: none; cursor: pointer; display: inline-block; font-family: "kgturningtables", Helvetica, Arial, sans-serif; font-size: 14px; font-weight: bold; line-height: 1; margin: 0; outline: none; padding: 10px 20px 11px; position: relative; text-align: center; text-decoration: none; -webkit-transition: background-color 0.15s ease-in-out; -moz-transition: background-color 0.15s ease-in-out; -o-transition: background-color 0.15s ease-in-out; transition: background-color 0.15s ease-in-out; /* Hovers */ /* Sizes */ /* Colors */ /* Radii */ /* Layout */ /* Disabled ---------- */ }
+
+
+img { display: inline-block; }
+
+@font-face {
+    font-family: "kgturningtables";
+    src: url('fonts/KGturningtables.ttf');
+}
+
+.space {margin-top: 2%; margin-bottom: 2%;}
+
+.minispace {margin-top: 2%;}
+
+.center {margin: 0 auto}
+
+a:hover { opacity: 0.75; }
+
+div.image { height: 400px; }

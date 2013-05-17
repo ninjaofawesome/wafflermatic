@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <title>WAFFLERMATIC</title>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" href="favicon.ico" />
+    <link rel="stylesheet" href="foundation.css" type="text/css">
+    <link rel="stylesheet" href="wafflermatic.css" type="text/css">
+    <script src="wafflermatic.js?1" type="text/javascript"></script>
+  </head>
+  <body>
+
+    <div class="row space">
+      <div class="column six centered">
+	<center>
+        <img src="images/header.png" alt="Wafflermatic" width="526">
+	</center>
+      </div>
+    </div> 
+
+    <div class="row">
+      <div class="column six centered image">
+	<center>
+	  <img src="images/penguins.jpg" name="image" id="image" alt="placeholder" width="400">
+	</center>
+      </div>
+    </div>
+
+    <div class="row minispace">
+	<div class="column six centered">
+	  <center>
+	    <a href="#" onclick="index=yesses[index]; document.getElementById('image').src = srcs[index];">
+	    <img src="images/orangeyes.png" id="yes" alt="Yes" width="100">
+	  </a>
+	  &nbsp;&nbsp;
+	    <a href="#" onclick="index=nos[index]; document.getElementById('image').src = srcs[index];">
+	    <img src="images/orangeno.png" id="no" alt="No"  width="100">
+	  </a>
+	  </center>
+	</div>
+    </div>
+
+  </body>
+</html>
